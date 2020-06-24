@@ -118,3 +118,14 @@ function printsEachTime(){
 
 printsEachTime()
 callChallengeBanner(9)
+
+function hardCoding(str){
+    let num = 1;
+  while (num <=7) {
+    console.log(num +'.'+ str);
+    num++;
+  }
+}
+
+hardCoding("Hello, The struggle is real")
+callChallengeBanner(10)
