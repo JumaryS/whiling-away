@@ -30,11 +30,42 @@ callChallengeBanner(2)
 
 //need further explination//
 function takesTwo(param1,param2){
-    let num= param1
-    while( num <=param2){
-        num= num+1
-        console.log(num)
+    let equalsTo = param1
+    while( equalsTo <= param2){
+        
+        equalsTo=equalsTo+1
+        console.log(equalsTo)
     }
 }
-takesTwo(0)
+takesTwo(1,6)
 callChallengeBanner(3)
+
+function oddOrEven(input){
+    let plusOne= 0
+    while (input > plusOne){
+        if (plusOne % 2 === 0){
+    console.log(plusOne + " "+ "Even")
+        }
+        else if (plusOne %2 !== 0){
+            console.log(plusOne + " "+ "Odd")
+        }
+    plusOne++
+            }
+}
+
+oddOrEven(20)
+callChallengeBanner(4)
+
+function evensOnly(input){
+let num= 0
+
+while(input>num){
+    if(num %2 === 0){
+        console.log(num+ " "+ "Even")
+    }
+    num++
+}
+}
+evensOnly(20)
+callChallengeBanner(5)
+
