@@ -190,7 +190,7 @@ function isItFizz(input){
         else if (counting % 3 === 0){
         console.log('Fizz')
         }
-        else {
+        else if (counting % 5 === 0){
           console.log('Buzz')
         }
   }
