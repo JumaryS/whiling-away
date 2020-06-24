@@ -113,7 +113,7 @@ function printsEachTime(){
   while (num <=7) {
     console.log(num +'.'+ 'Hello!');
     num++;
-  }
+}
 }
 
 printsEachTime()
@@ -124,8 +124,22 @@ function hardCoding(str){
   while (num <=7) {
     console.log(num +'.'+ str);
     num++;
-  }
+    }
 }
 
 hardCoding("Hello, The struggle is real")
 callChallengeBanner(10)
+
+function takesInStrAndNum(str,num){
+    let count = 0
+    while(count <=num){
+        console.log(str)
+        count++
+    }
+}
+
+takesInStrAndNum("Good Bye", 3)
+takesInStrAndNum("Get out!" , 5)
+callChallengeBanner(11)
+
+
