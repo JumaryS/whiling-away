@@ -175,5 +175,25 @@ function backwardsChallenge(string){
     }
   }
   backwardsChallenge('this was hard');
-
+callChallengeBanner(14)
 // why doesnt while(str< 1) work?//
+
+
+
+
+function isItFizz(input){
+    let counting = 0;
+    while (input > counting){
+    counting = counting + 1;
+    if (counting % 3 === 0 && counting % 5 === 0){
+        console.log('FizzBuzz')}
+        else if (counting % 3 === 0){
+        console.log('Fizz')
+        }
+        else {
+          console.log('Buzz')
+        }
+  }
+  }
+  isItFizz(15);
+  callChallengeBanner(15);
