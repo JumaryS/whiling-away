@@ -27,3 +27,14 @@ function SixForPram(param){
 }
 SixForPram(6)
 callChallengeBanner(2)
+
+//need further explination//
+function takesTwo(param1,param2){
+    let num= param1
+    while( num <=param2){
+        num= num+1
+        console.log(num)
+    }
+}
+takesTwo(0)
+callChallengeBanner(3)
