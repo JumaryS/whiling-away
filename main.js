@@ -134,12 +134,24 @@ function takesInStrAndNum(str,num){
     let count = 0
     while(count <=num){
         console.log(str)
+        
         count++
     }
 }
 
 takesInStrAndNum("Good Bye", 3)
-takesInStrAndNum("Get out!" , 5)
+
 callChallengeBanner(11)
+
+function beComplicated(str){
+    let letters= 0
+    while(letters< str.length){
+        console.log(str[letters])
+        letters++
+    }
+}
+//needed to have an index
+beComplicated("hi")
+
 
 
