@@ -173,8 +173,8 @@ function backwardsChallenge(string){
     console.log(string[str]);
     str--;
     }
-  }
-  backwardsChallenge('this was hard');
+}
+backwardsChallenge('this was hard');
 callChallengeBanner(14)
 // why doesnt while(str< 1) work?//
 
@@ -191,9 +191,27 @@ function isItFizz(input){
         console.log('Fizz')
         }
         else if (counting % 5 === 0){
-          console.log('Buzz')
+        console.log('Buzz')
         }
-  }
-  }
-  isItFizz(15);
-  callChallengeBanner(15);
+    }
+    }
+isItFizz(15);
+callChallengeBanner(15);
+
+
+function returnsAddedNum(array,input){
+let num= array[0]
+let num1= array[1]
+let count = 2
+
+    while(count< input){
+    nextNum = num + num1
+    num = num1
+    num1 = nextNum
+    array.push(nextNum)
+    count++
+    }
+    console.log(array)
+}
+
+returnsAddedNum(0,1)
