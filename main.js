@@ -69,3 +69,42 @@ while(input>num){
 evensOnly(20)
 callChallengeBanner(5)
 
+
+function tenToOne(){
+    num=20
+    while(num >= 0){
+        console.log(num)
+        num= num-1
+    }
+}
+
+tenToOne(20)
+callChallengeBanner(6)
+
+
+
+function blastOff(){
+    num=20
+    while(num >= 0){
+        if(num === 0){
+            console.log("BLAST OFF!!!")
+        }
+        else{console.log(num)
+        }
+        num= num-1}
+}
+
+blastOff(20)
+callChallengeBanner(7)
+
+function minusThree(){
+    num=20
+    while(num >= 0){
+        console.log(num)
+        num= num-3
+    }
+}
+
+minusThree(20)
+callChallengeBanner(8)
+
