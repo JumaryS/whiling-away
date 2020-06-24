@@ -66,7 +66,7 @@ while(input>num){
     num++
 }
 }
-evensOnly(20)
+evensOnly(11)
 callChallengeBanner(5)
 
 
@@ -108,3 +108,13 @@ function minusThree(){
 minusThree(20)
 callChallengeBanner(8)
 
+function printsEachTime(){
+    let num = 1;
+  while (num <=7) {
+    console.log(num +'.'+ 'Hello!');
+    num++;
+  }
+}
+
+printsEachTime()
+callChallengeBanner(9)
