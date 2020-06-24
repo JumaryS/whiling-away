@@ -151,7 +151,29 @@ function beComplicated(str){
     }
 }
 //needed to have an index
-beComplicated("hi")
+beComplicated("think")
+callChallengeBanner(12)
+
+function beMoreComplicated(str){
+    let letters= 1
+    while(letters< str.length){
+        console.log(str[letters])
+        letters= letters + 2
+    }
+}
+//needed to have an index
+beMoreComplicated("nobody")
+
+callChallengeBanner(13)
 
 
+function backwardsChallenge(string){
+    str = string.length -1;
+    while(str > -1){
+    console.log(string[str]);
+    str--;
+    }
+  }
+  backwardsChallenge('this was hard');
 
+// why doesnt while(str< 1) work?//
